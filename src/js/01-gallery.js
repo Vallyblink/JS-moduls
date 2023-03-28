@@ -4,12 +4,8 @@ import { galleryItems } from './gallery-items';
 import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
 
-console.log( pictureCard)
+const galleryList = document.querySelector(".gallery");
 
-console.log(galleryItems);
-const galleryList = document.querySelector(".gallery")
-
- 
 
 const pictureElement = galleryItems.map(({preview, original, description }) => 
 `<li class="gallery__item">
