@@ -26,6 +26,7 @@ function onFormSubmit (evt){
    evt.currentTarget.reset();
    console.log( dataForm)
    localStorage.removeItem(MESSAGE_KEY);
+   dataForm = {};
 }
 
 function onLocalCheck (e){
